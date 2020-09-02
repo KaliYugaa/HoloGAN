@@ -1,6 +1,6 @@
 import runway
 from runway.data_types import category, vector, image
-from model_HoloGAN.py import big_model, little_model
+from model_HoloGAN.py import HoloGAN
 
 # The setup() function runs once when the model is initialized, and will run
 # again for each well formed HTTP POST request to http://localhost:9000/setup.
